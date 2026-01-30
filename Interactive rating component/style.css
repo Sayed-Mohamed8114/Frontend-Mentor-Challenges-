@@ -1,0 +1,163 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  display: none;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+.state-start-container {
+  background: #202830;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  height: 50%;
+  justify-content: space-between;
+  padding: 15px;
+  width: 50%;
+  border-radius: 20px;
+}
+
+.star-shape {
+  height: 40px;
+  width: 40px;
+  background-color: #2f4459;
+  padding: 1px;
+  margin-left: 15px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.star {
+  width: 50%;
+}
+
+.text h1 {
+  margin-bottom: 15px;
+}
+
+.text p {
+  opacity: 0.5;
+  letter-spacing: 0.01rem;
+}
+
+.rates-buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.rates-buttons .rates {
+  outline: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.5);
+  padding: px;
+}
+
+#rates-btn:hover {
+  background-color: #fa7714;
+  color: black;
+}
+
+#rates-btn.active {
+  background-color: white;
+  color: black;
+}
+
+.submit {
+  padding: 10px;
+  border-radius: 20px 20px;
+  font-weight: 700;
+  background-color: #fa7714;
+}
+
+.submit:hover {
+  background-color: white;
+}
+
+.thx-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.image-thx-container {
+  margin-top: 15px;
+}
+
+.rate-choosen {
+  background-color: #2f4459;
+  padding: 15px;
+  border-radius: 20px;
+  color: #fa7714;
+  width: 60%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#choosen-rate {
+  white-space: pre;
+}
+
+.thx-section p {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  /* margin-bottom: 9px; */
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 426px) {
+  .state-start-container {
+    display: flex;
+    width: 90%;
+    height: auto;
+    padding: 15px;
+    margin: 0 auto;
+    gap: 10px;
+  }
+  .star-shape {
+    width: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  .hidden {
+    display: none;
+  }
+}
+
+@media (max-width: 360px) {
+  .rate-choosen {
+    width: 70%;
+  }
+}
+
+@media (max-width: 315px) {
+  .rate-choosen {
+    width: 75%;
+  }
+}
