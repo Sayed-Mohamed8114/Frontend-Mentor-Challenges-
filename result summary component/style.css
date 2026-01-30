@@ -1,0 +1,238 @@
+:root {
+  --backgroundColor: #ecf2ff;
+  --color-main-section: #4736f2;
+  --colot-circle-main: #4a26cd;
+  --continue-btn: #303b59;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  display: none;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--backgroundColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 60vh;
+  box-shadow: 0 0 10px #303b59;
+  border-radius: 20px;
+}
+
+.main-section {
+  background: var(--color-main-section);
+  padding: 25px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  height: 60vh;
+  width: 50%;
+}
+
+.main-section .result {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.main-section .result-circle {
+  background: radial-gradient(circle, #4a26cd, #4736f2);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 0 0 2px radial-gradient(circle, #4736f2, #4a26cd);
+}
+
+.main-section .result-circle .big-score {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #ecf2ff;
+}
+
+.main-section h1 {
+  color: var(--backgroundColor);
+}
+
+.main-section .description {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.main-section .result-circle .total-score {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.detailed-section {
+  background: var(--backgroundColor);
+  padding: 25px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: left;
+  text-align: left;
+  flex-direction: column;
+  gap: 5px;
+  height: 60vh;
+  width: 50%;
+}
+
+.submit-btn {
+  padding: 15px;
+  border: none;
+  border-radius: 25px;
+  width: 250px;
+  background-color: var(--continue-btn);
+  color: #ecf2ff;
+  transition: background-color 0.9s ease;
+}
+
+.submit-btn:hover {
+  background-color: #4736f2;
+  color: #e6faf6;
+}
+
+.detailed-section .detail-reaction {
+  background-color: #ffe9e9;
+  padding: 10px;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.detailed-section .detail-memory {
+  background-color: #fff7e6;
+  padding: 10px;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.detailed-section .detail-verbal {
+  background-color: #e6faf6;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  width: 250px;
+}
+
+.detailed-section .detail-visual {
+  background-color: #e8ebff;
+  padding: 10px;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.detailed-section .score .total-score {
+  font-weight: 900;
+}
+
+.detailed-section .score .total-grade {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.detailed-section .title-reaction {
+  color: red;
+  font-weight: 600;
+  justify-content: center;
+  display: flex;
+  gap: 4px;
+}
+.detailed-section .title-memory {
+  color: orange;
+  font-weight: 600;
+  justify-content: center;
+  display: flex;
+  gap: 4px;
+}
+.detailed-section .title-verbal {
+  color: green;
+  font-weight: 600;
+  justify-content: center;
+  display: flex;
+  gap: 4px;
+}
+.detailed-section .title-visual {
+  color: purple;
+  font-weight: 600;
+  justify-content: center;
+  display: flex;
+  gap: 4px;
+}
+
+@media (max-width: 610px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    flex-direction: column;
+    background: none;
+    height: 100vh;
+    border-radius: 0;
+  }
+  .main-section {
+    background: var(--color-main-section);
+    padding: 25px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    height: 50%;
+    margin-top: 10px;
+  }
+  .detailed-section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    height: 50%;
+  }
+
+  .main-section .result-circle {
+    background: radial-gradient(circle, #4a26cd, #4736f2);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0 0 2px radial-gradient(circle, #4736f2, #4a26cd);
+  }
+}
