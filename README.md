@@ -2,7 +2,8 @@
 ### and this is my profile on frontend mentor -> <a href="https://www.frontendmentor.io/profile/Sayed-Mohamed8114" target="_blank">My account</a>
 
 ### 1- <a target="_blank" href="https://sayed-mohamed8114.github.io/Frontend-Mentor-Challenges-/Interactive%20rating%20component/">Interactive rating component</a>
-### 2- <a target="_blank" href="https://sayed-mohamed8114.github.io/Frontend-Mentor-Challenges-/result%20summary%20component/">Result summary component</a>
+### 2- <a target="_blank" href="https://sayed-mohamed8114.github.io/Frontend-Mentor-Challenges-/faq-accordion/">Faq Accordion component</a>
+### 3- <a target="_blank" href="https://sayed-mohamed8114.github.io/Frontend-Mentor-Challenges-/result%20summary%20component/">Result summary component</a>
 
 
 
