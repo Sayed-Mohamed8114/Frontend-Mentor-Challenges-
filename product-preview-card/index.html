@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./src/style.css" />
+    <title>Frontend Mentor | Product preview card component</title>
+  </head>
+  <body
+    class="m-0 p-0 flex items-center h-screen w-full justify-center bg-stone-200"
+  >
+    <div
+      class="bg-white max-w-sm rounded-lg h-[80%] flex flex-col md:flex-row md:max-w-xl md:h-auto"
+    >
+      <div class="w-auto h-2/5 md:mr-2 md:w-1/2 md:h-full">
+        <img
+          src="./images/image-product-mobile.jpg"
+          alt="mobile"
+          class="rounded-lg w-full h-full block md:hidden"
+        />
+
+        <img
+          src="./images/image-product-desktop.jpg"
+          alt="product"
+          class="rounded-lg w-full h-full hidden md:block"
+        />
+      </div>
+      <div class="w-auto h-3/5 p-5 md:w-1/2 md:h-full">
+        <p class="text-gray-500 tracking-[5px] opacity-70 font-mono mt-0.5">
+          PERFUME
+        </p>
+        <h1 class="font-extrabold text-3xl mt-1 mb-1">
+          Gabrielle <br />
+          Essence Eau <br />
+          De Parfum
+        </h1>
+        <p class="text-gray-600 mb-1.5">
+          A floral, solar and voluptuous interpretation composed by Olivier
+          Polge, Perfumer-Creator for the House of CHANEL.
+        </p>
+        <div class="flex items-center gap-4">
+          <span class="text-3xl font-bold text-emerald-600">$149.99</span>
+          <span class="text-gray-400 line-through">$169.99</span>
+        </div>
+        <div
+          class="bg-green-800 flex items-center justify-center m-2 rounded-lg p-2 opacity-85 hover:opacity-100 hover:bg-green-900 cursor-pointer"
+        >
+          <img
+            src="./images/icon-cart.svg"
+            alt="cart"
+            class="text-black cursor-pointer"
+          />
+          <button class="text-white ml-3 cursor-pointer">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+    <div class="hidden">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Sayed mohamed</a>.
+    </div>
+  </body>
+</html>
