@@ -6,6 +6,7 @@
 ### 3- <a target="_blank" href="https://sayed-mohamed8114.github.io/Frontend-Mentor-Challenges-/result%20summary%20component/">Result summary component</a>
 ### 4- <a target="_blank" href="https://sayed-mohamed8114.github.io/Frontend-Mentor-Challenges-/social-links-profile-main/">social links profile</a>
 ### 5- <a target="_blank" href="https://sayed-mohamed8114.github.io/Frontend-Mentor-Challenges-/huddle-landing-page/">huddle landing page</a>
+### 6- <a target="_blank" href="https://sayed-mohamed8114.github.io/Frontend-Mentor-Challenges-/product-preview-card/"> Product preview card</a>
 
 
 
