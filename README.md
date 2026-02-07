@@ -8,7 +8,8 @@
 ### 5- <a target="_blank" href="https://sayed-mohamed8114.github.io/Frontend-Mentor-Challenges-/huddle-landing-page/">huddle landing page</a>
 ### 6- <a target="_blank" href="https://sayed-mohamed8114.github.io/Frontend-Mentor-Challenges-/product-preview-card/"> Product preview card</a>
 ### 7- <a target="_blank" href="https://sayed-mohamed8114.github.io/Frontend-Mentor-Challenges-/qr-code-component/">QR-component</a>
-### 8- <a target="_blank" href="https://sayed-mohamed8114.github.io/Frontend-Mentor-Challenges-/order-summary/">Order summary<\a>
+### 8- <a target="_blank" href="https://sayed-mohamed8114.github.io/Frontend-Mentor-Challenges-/order-summary/">Order summary </a>
+
 
 
 
