@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+body {
+  background: url(../images/pattern-background-desktop.svg) no-repeat;
+  background-size: 100% 40%;
+  background-color: #e1e9ff;
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    background: url(../images/pattern-background-mobile.svg);
+    background-size: 100% 40%;
+    background-color: #e1e9ff;
+  }
+}
+body {
+  @apply m-0 p-0 flex items-center justify-center h-screen;
+}
